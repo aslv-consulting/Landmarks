@@ -42,6 +42,7 @@
 		C04779C12BCD19BA0017AB3C /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04779C02BCD19BA0017AB3C /* PageViewController.swift */; };
 		C04779C32BCD1A450017AB3C /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04779C22BCD1A450017AB3C /* FeatureCard.swift */; };
 		C04779C52BCD1A970017AB3C /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04779C42BCD1A970017AB3C /* PageView.swift */; };
+		C04779C72BCD1D660017AB3C /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04779C62BCD1D660017AB3C /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		C04779C02BCD19BA0017AB3C /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		C04779C22BCD1A450017AB3C /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		C04779C42BCD1A970017AB3C /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		C04779C62BCD1D660017AB3C /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 			children = (
 				C04779C02BCD19BA0017AB3C /* PageViewController.swift */,
 				C04779C42BCD1A970017AB3C /* PageView.swift */,
+				C04779C62BCD1D660017AB3C /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				C04779A92BCD0CDB0017AB3C /* GraphCapsule.swift in Sources */,
 				C04779AB2BCD0CDB0017AB3C /* HikeGraph.swift in Sources */,
 				C047796D2BCC5DFE0017AB3C /* LandmarksApp.swift in Sources */,
+				C04779C72BCD1D660017AB3C /* PageControl.swift in Sources */,
 				C04779902BCD05440017AB3C /* FavoriteButton.swift in Sources */,
 				C04779B32BCD117E0017AB3C /* CategoryItem.swift in Sources */,
 				C04779942BCD06F60017AB3C /* HexagonParameters.swift in Sources */,
