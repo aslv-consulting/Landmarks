@@ -11,6 +11,11 @@ struct LandmarkRow: View {
             Text(landmark.name)
             
             Spacer()
+            
+            if landmark.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundStyle(.yellow)
+            }
         }
     }
 }
@@ -19,5 +24,5 @@ struct LandmarkRow: View {
     Group {
         LandmarkRow(landmark: Landmarks[0])
         LandmarkRow(landmark: Landmarks[1])
-    }    
+    }
 }
