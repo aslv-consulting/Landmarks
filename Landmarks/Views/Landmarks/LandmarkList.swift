@@ -5,7 +5,7 @@ struct LandmarkList: View {
     @State private var showFavoritesOnly = false
     
     var filteredLandmarks: [Landmark] {
-        modelData.Landmarks.filter { landmark in
+        modelData.landmarks.filter { landmark in
             (!showFavoritesOnly || landmark.isFavorite)
         }
     }
