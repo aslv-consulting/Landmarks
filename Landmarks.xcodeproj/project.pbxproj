@@ -12,6 +12,7 @@
 		C04779712BCC5DFF0017AB3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04779702BCC5DFF0017AB3C /* Assets.xcassets */; };
 		C04779742BCC5DFF0017AB3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04779732BCC5DFF0017AB3C /* Preview Assets.xcassets */; };
 		C047797B2BCCF4CD0017AB3C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047797A2BCCF4CD0017AB3C /* CircleImage.swift */; };
+		C047797D2BCCF5A60017AB3C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047797C2BCCF5A60017AB3C /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C04779702BCC5DFF0017AB3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C04779732BCC5DFF0017AB3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C047797A2BCCF4CD0017AB3C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		C047797C2BCCF5A60017AB3C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				C04779702BCC5DFF0017AB3C /* Assets.xcassets */,
 				C04779722BCC5DFF0017AB3C /* Preview Content */,
 				C047797A2BCCF4CD0017AB3C /* CircleImage.swift */,
+				C047797C2BCCF5A60017AB3C /* MapView.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C047796F2BCC5DFE0017AB3C /* ContentView.swift in Sources */,
+				C047797D2BCCF5A60017AB3C /* MapView.swift in Sources */,
 				C047796D2BCC5DFE0017AB3C /* LandmarksApp.swift in Sources */,
 				C047797B2BCCF4CD0017AB3C /* CircleImage.swift in Sources */,
 			);
