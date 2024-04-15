@@ -11,13 +11,20 @@ struct LandmarkList: View {
     
     var body: some View {
         NavigationSplitView {
-            List(filteredLandmarks) { Landmark in
-                NavigationLink {
-                    LandmarkDetail(landmark: Landmark)
-                } label: {
-                    LandmarkRow(landmark: Landmark)
+            List {
+                Toggle(isOn: $showFavoritesOnly) {
+                    Text("Favorites only")
+                }
+                
+                ForEach(filteredLandmarks) { landmark in
+                    NavigationLink {
+                        LandmarkDetail(landmark: landmark)
+                    } label: {
+                        LandmarkRow(landmark: landmark)
+                    }
                 }
             }
+            .animation(.default, value: filteredLandmarks)
             .navigationTitle("Landmarks")
         } detail: {
             Text("Select a Landmark")
